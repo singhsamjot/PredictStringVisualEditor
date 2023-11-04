@@ -1,0 +1,47 @@
+.action-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.action-area > * {
+  margin: 1rem;
+}
+
+.pallate-layout-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pallate {
+  border: 2px solid lightgray;
+  padding: 1rem;
+  height: calc(100vh - 150px);
+  overflow: auto;
+}
+
+.image-container {
+  padding: 0.5rem;
+  margin: 1rem;
+  border: 1px solid lightgray;
+}
+
+.layout {
+  margin-left: 2rem;
+  padding: 1rem;
+  border: 2px solid lightgray;
+  height: calc(100vh - 150px);
+  overflow: auto;
+}
+
+.layout-cell-root {
+  margin: 1rem;
+}
+
+.layout-cell {
+    border: 1px solid lightgray;
+}
+
+.draggable {
+  cursor: drag;
+}
